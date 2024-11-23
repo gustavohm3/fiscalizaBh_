@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="aboutUs.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="contact.css" media="screen" />
   <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -18,61 +19,57 @@
   <nav class="navbar navbar-expand-sm py-0 sticky-top">
     <div class="container mt-3 mb-1">
       <a href="index.html" class="navbar-brand d-flexalign-items-center text-light"
-        style="font-size: 30px; font-family:Arial, Helvetica, sans-serif;">
-        <i class="bi-bootstrap-fill fs-1 me-2"></i>Fiscaliza BH
+          style="font-size: 30px; font-family:Arial, Helvetica, sans-serif;">
+          <i class="bi-bootstrap-fill fs-1 me-2"></i>Fiscaliza BH
       </a>
       <button class="navbar-toggler" style="background-color:white" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar"><span
           class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="menuNavbar">
         <div class="navbar-nav ms-auto" style="font-size: 18px;">
-          <!-- <a href="#" class="nav-link active text-light">Sobre Nós</a> -->
+          <a href="aboutUs.html" class="nav-link active text-light">Sobre Nós</a>
           <a href="donate.html" class="nav-link active text-light">Doe</a>
           <a href="quiz.html" class="nav-link active text-light">Quiz</a>
-          <a href="contact.html" class="nav-link active text-light">Demandas</a>
         </div>
       </div>
     </div>
   </nav>
 
-  <div class="title">
-    <h1>Quem é o Fiscaliza BH?</h1>
-  </div>
-
-  <div class="container mb-5">
-    <p class="text">O Fiscaliza BH é um projeto dedicado a promover a transparência, o engajamento cidadão e a melhoria
-      dos serviços públicos em Belo Horizonte. Nosso objetivo é fornecer aos cidadãos uma plataforma prática e acessível
-      para acompanhar, denunciar e fiscalizar as ações da administração pública, contribuindo para uma cidade mais
-      justa, eficiente e responsável.</p>
-
-    <p class="text">Acreditamos que uma sociedade bem informada é a base de uma democracia sólida. Por isso, no
-      Fiscaliza BH, disponibilizamos informações detalhadas sobre projetos e investimentos públicos, além de canais para
-      que os cidadãos possam enviar denúncias e acompanhar o andamento de obras e serviços essenciais. Nosso time é
-      formado por profissionais comprometidos com a ética, a transparência e o desenvolvimento de Belo Horizonte, que
-      trabalham para transformar dados em insights valiosos para a população.</p>
-
-    <p class="text">Queremos que cada cidadão de Belo Horizonte tenha uma voz ativa na construção de uma cidade melhor.
-      Com o Fiscaliza BH, todos podem participar, questionar e fiscalizar para garantir que os recursos públicos sejam
-      utilizados com responsabilidade e que as demandas da população sejam atendidas. Junte-se a nós nessa jornada por
-      uma BH mais transparente, participativa e eficiente.</p>
-
-  </div>
-  <div class="input-email mt-5">
-    <div class="container p-5">
-      <form action="">
-        <h1 class="input-title mt-3">Cadastre-se abaixo!</h1>
-        <h4 class="input-title">Receba alertas de ações e novos conteúdos no seu email.</h4>
-        <div class="mb-3">
-          <label for="text" class="form-label">Nome</label>
-          <input type="text" id="text" class="form-control">
+  <div class="form-area">
+    <div class="container">
+        <div class="row single-form g-0">
+            <div class="col-sm-12 col-lg-6">
+                <div class="left">
+                    <h2><span>Envie Sua Demanda</span> </h2>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="right">
+                   <i class="fa fa-caret-left"></i>
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Mensagem</label>
+                          <textarea type="password" class="form-control" id="exampleInputPassword1"></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <label for="formFile" class="form-label">Selecione uma imagem</label>
+                        <input class="form-control" type="file" id="formFile" accept="image/*">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" id="email" class="form-control">
-        </div>
-        <button type="submit" class="btn">Inscreva-se</button>
-      </form>
     </div>
-  </div>
+</div>
+
   <footer>
     <div class="" mt-5 pt-5 pb-5 footer>
       <div class="container">
@@ -184,5 +181,4 @@
     </div>
   </footer>
 </body>
-
 </html>
